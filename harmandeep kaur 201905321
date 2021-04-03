@@ -1,0 +1,65 @@
+import java.util.*;
+
+
+public class TheJungle{
+
+public static void main(String [] args){
+System.out.println("starting application");
+
+
+}
+
+
+}
+
+
+
+
+class TheCompetition{
+// TheCompetition class will be the main organizer Boss Program to run all the work
+// This will be the Supervisor Program
+
+
+public void Run(){
+// from here I will call all the other methods that are making the Algorithm to execute
+// start by generating 10 Lions and 10 Tigers
+Lion [] myLions = new Lion[10];
+for(int i=1; i<10; i++)
+{
+myLions[i]= new Lion();
+}
+Tiger [] myTigers = new Tigers[10];
+for(int j=1; j<10; j++)
+{
+myTigers[j]= new Tiger();
+
+}
+
+}
+}
+
+
+
+
+class Feline{
+String catName;
+int catStrength;
+public Feline(){
+Random rnumber = new Random();
+catStrength = rnumber.nextInt(100);
+}
+}
+
+
+class Lion extends Feline{
+public Lion(){
+super();
+}
+}
+
+
+class Tiger extends Feline{
+public Tiger(){
+super();
+}
+}
